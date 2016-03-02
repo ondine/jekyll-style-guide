@@ -157,6 +157,3 @@ DEPENDENCIES
   html-proofer
   jekyll-github-metadata
   rubocop
-
-BUNDLED WITH
-   1.11.2

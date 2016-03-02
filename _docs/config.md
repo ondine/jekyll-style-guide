@@ -4,11 +4,11 @@ title: The config file
 
 ### The format
 
-Config files should be YAML.
+Configuration files, or **config** files configure the parameters and initial settings for Jekyll. This configuration file should be in YAML (YAML Ain't Markup Language) a human friendly data serialization standard for all programming languages. The base configuration file for all Jekyll projects is `config.yml`
 
 ### Arrays
 
-Prefer multi-line arrays for readability and version control purposes.
+Jekyll prefer multi-line arrays for readability and version control purposes.
 
 Good:
 
@@ -25,12 +25,12 @@ Bad:
 numbers: [one, two, three]
 ```
 
-### Variables
+### Site-wide Variables
 
 Use the following site-wide variables, where appropriate:
 
-* `title` - the name of the site. Use `title` and not name to match document and page meta.
-* `description` - the site's tagline or subtitle
+* `title`:  the title (name) of the site. Use `title` and not `name` to match document and page meta.
+* `description`: the site's tagline or subtitle
 
 ### Baseurl
 
